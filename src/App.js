@@ -7,6 +7,7 @@ import {
 
 import Home from './Home'
 import NewSerie from './NewSerie'
+import Series from './Series'
 
 const About = () => <section className='intro-section'><h1>Sobre</h1></section>
 
@@ -41,8 +42,9 @@ class App extends Component {
             </div>
           </nav>
           <Route exact path='/' component={Home} />
-          <Route exact path='/new-serie' component={NewSerie}/>
-          <Route exact path='/about' component={About}/>
+          <Route path='/series/:genre' component={Series} />
+          <Route exact path='/new-serie' component={NewSerie} />
+          <Route exact path='/about' component={About} />
         </div>
       </Router>
     );
