@@ -8,17 +8,6 @@
       "comments": "Muito bom"
     },
     {
-      "id": 2,
-      "name": "Friends",
-      "status": "watching",
-      "genre": "Comédia",
-      "current": {
-        "episode": "01",
-        "season": "09"
-      },
-      "comments": "Bom para descontrair"
-    },
-    {
       "id": 3,
       "name": "Breaking Bad",
       "status": "watched",
@@ -33,18 +22,11 @@
       "comments": "Galera fala bem"
     },
     {
-      "name": "rtyryttryrty",
+      "id": 5,
+      "name": "cxvvxvxvxcvasdasdasdasd",
       "status": "watched",
       "genre": "Comédia",
-      "comments": "hfghfhfghfg",
-      "id": 7
-    },
-    {
-      "name": "rwerwerwerwererw",
-      "status": "watched",
-      "genre": "Comédia",
-      "comments": "bcvbcvbvb",
-      "id": 8
+      "comments": ""
     }
   ],
   "genres": [
